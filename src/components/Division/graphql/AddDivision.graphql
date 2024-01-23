@@ -1,0 +1,5 @@
+mutation AddDivision($division: AddDivisionInput!) {
+    addDivision(division: $division) {
+        urlKey
+    }
+}

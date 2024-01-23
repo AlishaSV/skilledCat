@@ -1,0 +1,3 @@
+mutation RemoveDivision($division_uuid: String!) {
+    removeDivision(division_uuid: $division_uuid)
+}

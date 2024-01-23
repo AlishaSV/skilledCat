@@ -1,0 +1,8 @@
+sources:
+  - name: main
+    handler:
+      graphql:
+        endpoint: '{env.GRAPHQL_URL}'
+        batch: false
+serve:
+  playground: true

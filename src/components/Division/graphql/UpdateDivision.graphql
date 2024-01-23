@@ -1,0 +1,7 @@
+mutation UpdateDivision($division: UpdateDivisionInput!, $uuid: String!) {
+    updateDivision(uuid: $uuid, division: $division) {
+        uuid
+        urlKey
+        title
+    }
+}

@@ -1,0 +1,7 @@
+mutation UpdateSkill($skill: UpdateSkillInput!, $uuid: String!){
+    updateSkill(skill: $skill, uuid: $uuid) {
+        uuid
+        title
+        urlKey
+    }
+}

@@ -1,0 +1,7 @@
+query GetSkill($urlKey: String!) {
+    getSkill(urlKey: $urlKey) {
+        uuid
+        title
+        urlKey
+    }
+}

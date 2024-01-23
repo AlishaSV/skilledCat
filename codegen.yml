@@ -1,0 +1,15 @@
+generates:
+  #  Generate .gql.ts files for each GraphQl file
+  .:
+    schema:
+      - .mesh/schema.graphql
+    preset: near-operation-file
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    documents:
+      - 'src/components/**/*.graphql'
+    presetConfig:
+      extension: .gql.ts
+      baseTypesPath: .mesh

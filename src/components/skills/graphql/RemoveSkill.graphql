@@ -1,0 +1,3 @@
+mutation RemoveSkill($skill_uuid: String!) {
+    removeSkill(skill_uuid: $skill_uuid)
+}

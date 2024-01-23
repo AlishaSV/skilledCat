@@ -1,0 +1,9 @@
+query GetSkills {
+    getSkills {
+        items {
+            uuid
+            title
+            urlKey
+        }
+    }
+}

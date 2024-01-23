@@ -1,0 +1,12 @@
+query GetDivision($urlKey: String!) {
+    getDivision(urlKey: $urlKey) {
+        urlKey
+        uuid
+        title
+        skills {
+            items {
+                uuid
+            }
+        }
+    }
+}

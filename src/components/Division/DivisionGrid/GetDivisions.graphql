@@ -1,0 +1,15 @@
+query GetDivisions {
+    getDivisions {
+        items {
+            uuid
+            title
+            urlKey
+            skills {
+                items {
+                    title
+                    urlKey
+                }
+            }
+        }
+    }
+}
